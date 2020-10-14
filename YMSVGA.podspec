@@ -143,5 +143,6 @@ SVGA改
   spec.ios.dependency "YMTool", "~> 0.0.1"
 
 
-  spec.requires_arc = 'YMSVGA/*.m'
+  spec.requires_arc = false
+  spec.requires_arc = ['YMSVGA/*.m','YMSVGA/SVGAPlayer/SVGA*.m']
 end
