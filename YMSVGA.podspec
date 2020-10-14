@@ -94,8 +94,7 @@ SVGA改
   spec.source_files  = "YMSVGA", "YMSVGA/**/*.{h,m}"
   spec.exclude_files = "YMSVGA/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
-
+  spec.public_header_files = ['YMSVGA/SVGAPlayer/Svga.pbobjc.h','YMSVGA/SVGAPlayer/SVGAExporter.h','YMSVGA/SVGAPlayer/SVGA.h','YMSVGA/SVGAPlayer/SVGAParser.h','YMSVGA/SVGAPlayer/SVGAVideoEntity.h','YMSVGA/SVGAPlayer/SVGAImageView.h','YMSVGA/SVGAPlayer/SVGAPlayer.h','YMSVGA/YMSVGA.h']
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -144,5 +143,7 @@ SVGA改
 
 
   spec.requires_arc = false
-  spec.requires_arc = ['YMSVGA/*.m','YMSVGA/SVGAPlayer/SVGA*.m']
+  spec.requires_arc = ['YMSVGA/YMSVGA/*.m','YMSVGA/SVGAPlayer/SVGA*.m']
+
+
 end
